@@ -48,7 +48,7 @@ if __name__ == "__main__":
     Example usage: Predict the class of a single chess square image.
     """
     # Paths to the image, model, and saved class indices
-    image_path = "data/split_dataset/test/black_bishop/c8_020.png"
+    image_path = "IMG_2744.jpg"
     model_path = "models/final_chess_efficientnet.pth"
     class_indices_path = "models/class_indices.json"
 

@@ -23,6 +23,7 @@ def load_datasets(train_dir=None, val_dir=None, test_dir=None, batch_size=32):
     transform_train = transforms.Compose([
         transforms.RandomRotation(10),      # Randomly rotate image by ±10 degrees
         transforms.RandomHorizontalFlip(),  # Randomly horizontally flip the image
+        transforms.RandomVerticalFlip(),    # Randomly vertically flip the image
         transforms.Resize((224, 224)),      # Resize to 224x224
         transforms.ToTensor(),              # Convert to tensor
         transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])  # Normalize

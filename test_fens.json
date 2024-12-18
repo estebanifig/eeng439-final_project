@@ -1,0 +1,202 @@
+[
+    {
+        "image_path": "synthetic_images/41767.png",
+        "true_fen": "4p3/5Q2/8/7B/8/1N6/6q1/8 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/84960.png",
+        "true_fen": "3b3N/2KN1qQQ/8/Q2p1B2/1P6/kK4N1/r2n2K1/5B1N w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/96364.png",
+        "true_fen": "3K4/2K5/1R6/4r2p/nk6/4n2Q/2R5/8 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/92360.png",
+        "true_fen": "8/6Nn/8/1b2R3/8/8/8/1P1N4 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/80871.png",
+        "true_fen": "3BN3/3b4/6k1/6b1/Q3p2K/2n2r2/8/8 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/89428.png",
+        "true_fen": "4QKr1/2b5/6R1/b3n2b/6R1/8/3n4/q3P1K1 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/98168.png",
+        "true_fen": "8/1R1P3P/8/k4K2/5b2/4N2B/8/q1R4q w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/30206.png",
+        "true_fen": "4nQ1p/R1K5/8/7b/1K6/2pN3Q/8/2q5 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/79278.png",
+        "true_fen": "8/1rK1Q3/3P3B/1pp1rq2/6bN/8/2rP4/5P2 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/56752.png",
+        "true_fen": "2q5/8/6B1/8/4P2b/5b2/q1K2p2/8 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/94866.png",
+        "true_fen": "K1R5/5ppK/2p3kr/2K1Kb2/3b4/1qB2K2/5R2/2Qb4 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/87399.png",
+        "true_fen": "1p1N1R2/3qPq1k/8/4b3/8/6b1/8/P4q2 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/4459.png",
+        "true_fen": "R1n1N1N1/5N2/KK6/1R1k4/8/4k3/n3k1N1/1P3p2 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/10394.png",
+        "true_fen": "4P2q/1Pn5/1q1q4/1bPb1KQ1/2qkQ3/8/5Q2/3b4 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/70241.png",
+        "true_fen": "4k3/1k1K2R1/N7/6Q1/1r1NQ3/6K1/2r4q/3Q4 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/75685.png",
+        "true_fen": "8/8/n1q5/7r/1P2n3/2p2P2/8/4Pqb1 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/66522.png",
+        "true_fen": "2pnNq1q/5N1b/8/8/5q2/4p3/3kQ3/1Kq1p1R1 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/46357.png",
+        "true_fen": "n7/1r6/8/6q1/1N6/8/R4B2/7q w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/58834.png",
+        "true_fen": "RP6/2K5/b7/5K2/1B6/5r2/3bn3/2bN4 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/39863.png",
+        "true_fen": "8/6N1/3qk1p1/8/2P5/1B1NK3/2R1n3/8 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/18787.png",
+        "true_fen": "1qB4q/3b2p1/p7/8/1p3R2/1P1rkK2/8/p4qn1 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/10001.png",
+        "true_fen": "2R1K3/2bR4/1P3P2/7p/rk6/K4q2/p1qK1b2/4n2K w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/66222.png",
+        "true_fen": "n1Nr4/N1NNk3/2br4/3K3R/2rNR3/5R1P/1q1k4/2k5 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/12524.png",
+        "true_fen": "Q7/8/1p3q2/3qNKn1/1n1P1q2/4Np2/nP4K1/r3Q3 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/97020.png",
+        "true_fen": "8/1q3n2/2R5/5b2/8/7k/3Q4/4RP2 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/77017.png",
+        "true_fen": "2r5/4P3/8/PR4b1/8/4k1r1/b4k2/1rN5 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/75307.png",
+        "true_fen": "8/N6B/5B2/6R1/8/6n1/7P/8 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/2292.png",
+        "true_fen": "3n1q1P/7R/3B4/1k5p/1Bp5/3k4/7k/bq6 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/85768.png",
+        "true_fen": "8/K1Q5/N2R2R1/qR6/3R4/4N1Q1/1Q2N3/1pQ3qn w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/16410.png",
+        "true_fen": "3k3K/2n4P/2PP4/4Nn2/8/1K5k/r7/p1r1R1k1 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/4401.png",
+        "true_fen": "7B/2qpB2B/3KN3/4R3/4q3/2q2q2/8/1P2K1k1 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/87480.png",
+        "true_fen": "1P3R2/2N2B2/4P2n/R1K5/R3qn2/p4n1R/b7/8 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/86332.png",
+        "true_fen": "2b5/8/1p4Q1/1q6/2b1q3/4N1R1/KP4r1/2n5 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/89833.png",
+        "true_fen": "4B3/2n5/8/6q1/1P5b/1R6/8/8 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/42791.png",
+        "true_fen": "2qb4/3b4/qrr3q1/8/1R1r1kb1/2P5/3b4/K2k1b2 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/74408.png",
+        "true_fen": "3r4/1q6/R1P5/1Q1Q4/1pp5/1q6/3Q2P1/2K1q1bN w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/48074.png",
+        "true_fen": "5Bn1/2r2Q1n/7P/8/1R2B3/6Q1/3R4/8 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/31494.png",
+        "true_fen": "3p1KQ1/3Q4/N7/n5n1/2r1B1Q1/3P2k1/5p1n/qB5b w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/39848.png",
+        "true_fen": "7p/Q4N2/3p4/7q/1q4N1/8/p5K1/8 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/43793.png",
+        "true_fen": "Kr6/5R1r/3r4/Q7/4k3/3K4/bb4Q1/3BQ3 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/59596.png",
+        "true_fen": "7q/1q2q2K/1nb2r2/4n3/1bn2n2/5q2/3N2k1/2Pr4 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/34905.png",
+        "true_fen": "1p6/q2p4/8/5R2/8/Q7/2n3R1/8 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/30968.png",
+        "true_fen": "6N1/6q1/8/2k2Q1Q/8/8/8/8 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/73369.png",
+        "true_fen": "2n2pq1/2n5/1K6/pR6/8/6qN/N7/q7 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/64807.png",
+        "true_fen": "K7/N2R3k/8/2n5/p7/3q4/8/6q1 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/45457.png",
+        "true_fen": "3P1b2/kb6/7k/r5qk/p7/4qq2/1Q3kRp/8 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/10358.png",
+        "true_fen": "2k4P/1B1P4/5NB1/7K/N7/8/2P1Q2N/3n4 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/6730.png",
+        "true_fen": "1Pp5/N7/7N/1Q6/p2R2K1/6b1/8/2N2N1q w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/89638.png",
+        "true_fen": "8/1q6/P7/1b1Q4/pR6/4R3/7P/4p3 w - - 0 1"
+    },
+    {
+        "image_path": "synthetic_images/22851.png",
+        "true_fen": "3Q4/1n6/3Q4/8/2q5/8/5K2/4q3 w - - 0 1"
+    }
+]
