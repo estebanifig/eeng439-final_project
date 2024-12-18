@@ -61,21 +61,21 @@ eeng439-final_project/
 ├── .gitignore                 # Ignore unnecessary files
 ├── main.py                    # Main entry point for training and evaluation
 └── README.md                  # This file
-```plaintext
+```
 
 ## **Setup and Installation**
 
 ### **1. Clone the Repository**
-
+```bash
 git clone https://github.com/your-username/chess-classification.git
 cd chess-classification
-
+```
 ### **2. Install Dependencies**
 
 Create a Python environment and install required libraries:
-
+```bash
 pip install -r requirements.txt
-
+```
 ## **Dataset**
 
 The dataset containing raw chessboard screenshots and corresponding FEN files is available for download.
@@ -87,47 +87,47 @@ Download the Dataset
 Where to Place the Dataset
 	1.	Place the extracted dataset folder into the data/ directory of this project.
 	•	The folder structure should look like this:
-
+```plaintext
 eeng439-final_project/
 ├── data/
 │   ├── chessboard_screenshots/   # Place the downloaded dataset here
 │   └── (other folders like processed_chessboards, dataset, split_dataset)
-
+```
 ## **Processing the Dataset**
 
 After placing the dataset in the correct location, follow these steps:
 	1.	Split Chessboards into Individual Squares
 Use one of the following scripts:
 	•	For custom FEN files:
-
+```bash
 python src/chessboardParse.py
-
+```
 
 	•	For the initial standard chess position:
-
+```bash
 python src/chessboardParse(init).py
-
+```
 
 Output: Individual squares will be saved in data/processed_chessboards.
 
 	2.	Sort Squares into Class Folders
 	•	For unique FEN files:
-
+```bash
 python src/dataSorter.py
-
+```
 
 	•	For the initial position FEN:
-
+```bash
 python src/dataSorter(init).py
-
+```
 
 Output: Labeled images will be saved in data/dataset.
 
 	3.	Split Dataset into Train/Val/Test
 Use the datasetSplit.py script:
-
+```bash
 python src/datasetSplit.py
-
+```
 Default split:
 	•	Train: 80%
 	•	Validation: 10%
@@ -140,33 +140,33 @@ Output: Split datasets are saved in data/split_dataset.
 
 Use datasetCollector.py to capture screenshots for different board and piece themes.
 	•	How to run:
-
+```bash
 python src/datasetCollector.py
-
+```
 
 
 ### **2. Generating Random Chess Positions**
 
 Use datasetCollector(random).py to collect chessboards with random FEN positions.
 	•	How to run:
-
+```bash
 python src/datasetCollector(random).py
-
+```
 
 
 ### **3. Capturing Game Moves**
 
 Use datasetCollector(games).py to collect board states for chess games.
 	•	How to run:
-
+```bash
 python src/datasetCollector(games).py
-
+```
 ## **Training the Model**
 
 Run the main.py script to train the EfficientNet model:
-
+```bash
 python main.py
-
+```
 	•	Outputs:
 	•	Model weights: models/final_chess_efficientnet.pth
 	•	Class indices: models/class_indices.json
@@ -175,9 +175,9 @@ python main.py
 
 Evaluation runs automatically after training. It checks accuracy on the test set.
 	•	How to run:
-
+```bash
 python main.py
-
+```
 ## **Running Inference**
 
 To predict the class of a single chess square image:
@@ -186,9 +186,9 @@ To predict the class of a single chess square image:
 	•	model_path: Path to the trained model weights.
 	•	class_indices_path: Path to class_indices.json.
 	2.	Run the script:
-
+```bash
 python src/inference.py
-
+```
 Output:
 
 Predicted class: black_pawn
