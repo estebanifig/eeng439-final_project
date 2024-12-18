@@ -14,8 +14,8 @@ if __name__ == "__main__":
     model_path = "models/final_chess_efficientnet.pth"
 
     # Train the model
-    print("Starting training...")
-    train_model("data/split_dataset/train", "data/split_dataset/val", "models/final_chess_efficientnet.pth")
+    # print("Starting training...")
+    # train_model("data/split_dataset/train", "data/split_dataset/val", "models/final_chess_efficientnet.pth")
 
     # Evaluate the model
     print("Starting evaluation...")
