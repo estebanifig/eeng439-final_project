@@ -2,3 +2,4 @@ data/chessboard_screenshots
 data/dataset
 data/processed_chessboards
 data/split_dataset
+src/__pycache__
