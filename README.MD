@@ -193,11 +193,6 @@ Output:
 
 Predicted class: black_pawn
 
-## **Notes**
-	•	Ensure your dataset is balanced for better accuracy.
-	•	Update screen coordinates when running automation scripts.
-	•	Back up your data before processing.
-
 ## **License**
 
 This project is licensed under the MIT License.
