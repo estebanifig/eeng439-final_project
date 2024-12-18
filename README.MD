@@ -61,21 +61,22 @@ eeng439-final_project/
 ├── .gitignore                 # Ignore unnecessary files
 ├── main.py                    # Main entry point for training and evaluation
 └── README.md                  # This file
+```plaintext
 
-Setup and Installation
+## **Setup and Installation**
 
-1. Clone the Repository
+### **1. Clone the Repository**
 
 git clone https://github.com/your-username/chess-classification.git
 cd chess-classification
 
-2. Install Dependencies
+### **2. Install Dependencies**
 
 Create a Python environment and install required libraries:
 
 pip install -r requirements.txt
 
-Dataset
+## **Dataset**
 
 The dataset containing raw chessboard screenshots and corresponding FEN files is available for download.
 
@@ -92,7 +93,7 @@ eeng439-final_project/
 │   ├── chessboard_screenshots/   # Place the downloaded dataset here
 │   └── (other folders like processed_chessboards, dataset, split_dataset)
 
-Processing the Dataset
+## **Processing the Dataset**
 
 After placing the dataset in the correct location, follow these steps:
 	1.	Split Chessboards into Individual Squares
@@ -133,9 +134,9 @@ Default split:
 	•	Test: 10%
 Output: Split datasets are saved in data/split_dataset.
 
-Data Collection
+## **Data Collection (if required)**
 
-1. Automating Theme-Based Screenshots
+### **1. Automating Theme-Based Screenshots**
 
 Use datasetCollector.py to capture screenshots for different board and piece themes.
 	•	How to run:
@@ -144,7 +145,7 @@ python src/datasetCollector.py
 
 
 
-2. Generating Random Chess Positions
+### **2. Generating Random Chess Positions**
 
 Use datasetCollector(random).py to collect chessboards with random FEN positions.
 	•	How to run:
@@ -153,14 +154,14 @@ python src/datasetCollector(random).py
 
 
 
-3. Capturing Game Moves
+### **3. Capturing Game Moves**
 
 Use datasetCollector(games).py to collect board states for chess games.
 	•	How to run:
 
 python src/datasetCollector(games).py
 
-Training the Model
+## **Training the Model**
 
 Run the main.py script to train the EfficientNet model:
 
@@ -170,14 +171,14 @@ python main.py
 	•	Model weights: models/final_chess_efficientnet.pth
 	•	Class indices: models/class_indices.json
 
-Evaluating the Model
+## **Evaluating the Model**
 
 Evaluation runs automatically after training. It checks accuracy on the test set.
 	•	How to run:
 
 python main.py
 
-Running Inference
+## **Running Inference**
 
 To predict the class of a single chess square image:
 	1.	Update paths in src/inference.py:
@@ -192,15 +193,11 @@ Output:
 
 Predicted class: black_pawn
 
-Notes
+## **Notes**
 	•	Ensure your dataset is balanced for better accuracy.
 	•	Update screen coordinates when running automation scripts.
 	•	Back up your data before processing.
 
-License
+## **License**
 
 This project is licensed under the MIT License.
-
----
-
-This version includes the Google Drive dataset link, instructions on downloading, and a clear flow for processing the data. Let me know if you need further adjustments!
